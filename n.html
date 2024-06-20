@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial Website</title>
+    <link rel="stylesheet" href="n.css">
+    <script src="n.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">WebReach Services</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Our Company</h2>
+            <p>Your satisfaction is our priority. Discover our services and products today.</p>
+            <a href="#services" class="btn">Learn More</a>
+        </div>
+    </section>
+    <!-- Images Section -->
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="Images/download (1).jpeg" alt="Image 1"></div>
+            <div class="slide"><img src="Images/download.jpeg" alt="Image 2"></div>
+            <div class="slide"><img src="Images/images (1).jpeg" alt="Image 3"></div>
+            <div class="slide"><img src="Images/images.jpeg" alt="Image 4"></div>
+        </div>
+        <div class="prev" onclick="prevSlide()">&#10094;</div>
+        <div class="next" onclick="nextSlide()">&#10095;</div>
+    </div>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Training</h3>
+                <p>In the rapidly evolving field of postal services, continuous training and development are crucial for
+                    maintaining efficiency, customer satisfaction, and adapting to new technologies and processes. Our
+                    comprehensive training services are designed to enhance the skills and knowledge of postal
+                    professionals at all levels, from entry-level employees to senior management.</p>
+            </div>
+            <div class="service-item">
+                <h3>Consulting</h3>
+                <p>Online consulting services for post (postal services) provide professional advice, solutions, and
+                    strategies to enhance the efficiency and effectiveness of postal operations. These services cater to
+                    postal organizations, courier companies, and related businesses, helping them navigate the
+                    complexities of modern postal logistics, customer service, and technological advancements.</p>
+            </div>
+            <div class="service-item">
+                <h3>Management Services for Postal Operations</h3>
+                <p>Management services in postal operations encompass a wide range of activities designed to ensure the
+                    efficient and effective delivery of mail and packages. These services involve the coordination and
+                    oversight of various processes, from mail sorting to final delivery, ensuring that postal systems
+                    operate smoothly and meet customer expectations. Below is a detailed overview of key management
+                    services provided for postal operations:</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-item">
+                <img src="Images/download (1).jpeg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, corporis?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, fugiat.
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="Images/download.jpeg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod cupiditate, aut quidem modi
+                    accusantium corrupti tempora neque quam sunt alias repellendus reprehenderit velit quas maiores
+                    quibusdam ipsum unde rem consectetur.</p>
+            </div>
+            <div class="product-item">
+                <img src="Images/images.jpeg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vero repellat aut aliquid aperiam omnis
+                    accusamus doloremque, ea a non natus placeat, cumque maxime cupiditate at maiores inventore officia
+                    quibusdam!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial-item">
+                <p>"Great service and amazing products!" - Customer A</p>
+            </div>
+            <div class="testimonial-item">
+                <p>"I am very satisfied with my purchase." - Customer B</p>
+            </div>
+            <div class="testimonial-item">
+                <p>"Highly recommend this company." - Customer C</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 CompanyName. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
